@@ -62,3 +62,11 @@ Desktop.ini
 *.tmp
 .tmp/
 .cache/
+
+# Design handoff (external export, kept local)
+design_handoff_starcrew/
+
+# Project documentation (kept local, not committed): all root-level *.md
+# except README.md. New docs are covered automatically by this rule.
+/*.md
+!README.md
