@@ -1,0 +1,26 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "Дальше" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next" } }
+      }
+    },
+    "Миссия выполнена!" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mission complete!" } }
+      }
+    },
+    "Отличная работа, командир!" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Great work, Commander!" } }
+      }
+    },
+    "Попробуй ещё раз" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Try again" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

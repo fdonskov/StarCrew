@@ -1,0 +1,74 @@
+{
+  "contentSchemaVersion": 1,
+  "planet": {
+    "id": "orion_numeria",
+    "name": { "ru": "Нумерия", "en": "Numeria" },
+    "subject": "math",
+    "sector": 1,
+    "missions": [
+      {
+        "id": "orion_numeria_m1",
+        "crewMemberID": "leo",
+        "passingThreshold": 0.75,
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "id": "q_numeria_count_3",
+            "prompt": { "ru": "Сколько здесь звёзд?", "en": "How many stars are here?" },
+            "difficulty": 1,
+            "skillTags": ["math.number_sense.count_to_10"],
+            "options": [
+              { "id": "a", "label": { "ru": "2", "en": "2" } },
+              { "id": "b", "label": { "ru": "3", "en": "3" } },
+              { "id": "c", "label": { "ru": "4", "en": "4" } },
+              { "id": "d", "label": { "ru": "5", "en": "5" } }
+            ],
+            "correctOptionID": "b",
+            "hint": { "ru": "Посчитай по одной: раз, два, три.", "en": "Count one by one: one, two, three." }
+          },
+          {
+            "type": "multipleChoice",
+            "id": "q_numeria_compare",
+            "prompt": { "ru": "Где больше кристаллов?", "en": "Which side has more crystals?" },
+            "difficulty": 1,
+            "skillTags": ["math.number_sense.compare_quantity"],
+            "options": [
+              { "id": "left", "label": { "ru": "Слева (4)", "en": "Left (4)" } },
+              { "id": "right", "label": { "ru": "Справа (2)", "en": "Right (2)" } }
+            ],
+            "correctOptionID": "left",
+            "hint": { "ru": "Сравни количество: 4 больше, чем 2.", "en": "Compare the amounts: 4 is more than 2." }
+          },
+          {
+            "type": "multipleChoice",
+            "id": "q_numeria_order",
+            "prompt": { "ru": "Какое число идёт после 6?", "en": "Which number comes after 6?" },
+            "difficulty": 2,
+            "skillTags": ["math.number_sense.count_to_10", "math.number_sense.number_order"],
+            "options": [
+              { "id": "a", "label": { "ru": "5", "en": "5" } },
+              { "id": "b", "label": { "ru": "7", "en": "7" } },
+              { "id": "c", "label": { "ru": "8", "en": "8" } }
+            ],
+            "correctOptionID": "b",
+            "hint": { "ru": "Считай дальше: шесть, семь.", "en": "Keep counting: six, seven." }
+          },
+          {
+            "type": "multipleChoice",
+            "id": "q_numeria_add",
+            "prompt": { "ru": "Два плюс три — сколько будет?", "en": "Two plus three is how many?" },
+            "difficulty": 2,
+            "skillTags": ["math.arithmetic.add_within_10"],
+            "options": [
+              { "id": "a", "label": { "ru": "4", "en": "4" } },
+              { "id": "b", "label": { "ru": "5", "en": "5" } },
+              { "id": "c", "label": { "ru": "6", "en": "6" } }
+            ],
+            "correctOptionID": "b",
+            "hint": { "ru": "Прибавляй по одному: 2, потом ещё 3.", "en": "Add one at a time: 2, then 3 more." }
+          }
+        ]
+      }
+    ]
+  }
+}
